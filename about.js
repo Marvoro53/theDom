@@ -6,3 +6,6 @@ var items = document.getElementsByTagName('li');
 for (var i = 0; i < items.length; i++) {
     items[i].className = 'list-item';
 }
+var myPic = document.createElement('img');
+myPic.src = 'images/me.jpg';
+document.body.appendChild(myPic);
