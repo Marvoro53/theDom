@@ -9,6 +9,17 @@ for (var i = 0; i < items.length; i++) {
     items[i].className = 'list-item';
 }
 // Create a new img element and set its src attribute to a picture of you. Append that element to the page. 
-var myPic = document.createElement('img');
-myPic.src = 'images/me.jpg';
-document.body.appendChild(myPic);
+// var myPic = document.createElement('img');
+// myPic.src = 'images/me.jpg';
+// document.body.appendChild(myPic);
+
+// var place= document.getElementsByClass('me');
+// var firstImage= 'images/plane.jpg';
+// place.src= 'images/me.jpg';
+
+//excercises
+var body= document.body;
+var newImage= document.createElement('img');
+newImage.src= 'https://newnation.sg/wp-content/uploads/random-pic-internet-22.jpg';
+newImage.style.border= '5px blue solid';
+document.body.appendChild(newImage);
